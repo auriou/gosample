@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/auriou/gosample/libs/calculatrice"
+)
 
 func main() {
-	x := calculatice.Add(4, 5)
+	x := calculatrice.Add(4, 5)
 	fmt.Println("resultat", x)
-
 }
